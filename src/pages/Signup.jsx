@@ -20,6 +20,7 @@ export default function Signup() {
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleSignup}>
       <h2>Signup</h2>
       <input
@@ -45,5 +46,6 @@ export default function Signup() {
       />
       <button type="submit">Signup</button>
     </form>
+    </div>
   );
 }

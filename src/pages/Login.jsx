@@ -20,6 +20,7 @@ export default function Login() {
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleLogin}>
       <h2>Login</h2>
       <input
@@ -38,5 +39,6 @@ export default function Login() {
       />
       <button type="submit">Login</button>
     </form>
+    </div>
   );
 }

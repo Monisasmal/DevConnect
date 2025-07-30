@@ -21,7 +21,7 @@ export default function Navbar() {
         </>
       ) : (
         <>
-          <Link to="/signup">Signup</Link>{" | "}
+          <Link to="/signup">Signup</Link>
           <Link to="/login">Login</Link>
         </>
       )}
