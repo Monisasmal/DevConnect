@@ -1,0 +1,32 @@
+.project-card {
+  margin: 1rem 0;
+}
+.comment-section {
+  margin-top: 1rem;
+}
+.comment-section input {
+  width: 70%;
+  padding: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.comment-section button {
+  margin-left: 8px;
+  padding: 0.4rem 0.8rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.comment-section button:hover {
+  background: #218838;
+}
+.comment-list {
+  margin-top: 1rem;
+}
+.comment {
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+  margin-top: 8px;
+}
